@@ -31,7 +31,7 @@ pipeline {
     stage('Integration Testing') {
       steps {
         sh 'sleep 5s'
-        sh 'curl -s http://192.168.76.142:6767/hello'
+        sh 'curl -s http://192.168.76.142:8080/hello'
       }
     }
 
